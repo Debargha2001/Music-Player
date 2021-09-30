@@ -1,0 +1,996 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artist</title>
+    <!-- fontawesome cdn -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <!-- css link -->
+    <link rel="stylesheet" href="artist-page.css" type="text/css">
+</head>
+<body>
+    <!-- navigation bar -->
+    <nav id="basic">
+        <div class="item one"></div>
+            <div class="left-side">
+                <div class="logo div-set">
+                    <i class="fas fa-user-ninja"></i>
+                </div>
+                <div id="title" class="div-set">
+                    <span>Ninja</span>
+                    <span>Studio</span>
+                </div>
+                <div id="favourites-tab" class="div-set">
+                    <p>Favourites</p>
+                </div>
+
+                <div id="home-tab" class="div-set">
+                    <a href="index.html">
+                        <button>
+                           <p>Home</p> 
+                        </button>
+                    </a>
+                </div>
+            </div>
+
+            <div class="right-side">
+                <div id="search-bar" class="div-set">
+                    <button><i class="fas fa-search"></i></button>
+                    <form>
+                        <input class="search" type="text" name="search" placeholder="Search">
+                    </form>
+                    <button class="mic"><i class="fas fa-microphone"></i></button>
+                </div>
+                <div id="bell-icon" class="div-set">
+                    <i class="fas fa-bell"></i>
+                    <div id="dot"></div>
+                </div>
+                <div class="profile div-set"></div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- main content -->
+    <section id="main-content">
+        <!-- singer div -->
+        <div class="item two">
+            <div id="singer">
+                <div class="image"></div>
+                <div class="info">
+                    <div id="followers">851 Followers</div>
+                    <h1>Arijit Singh</h1>
+                    <p style="margin-top: -15px;">Indian Singer</p>
+                    <p>
+                        Arijit Singh (born 25 April 1987) is an Indian singer and music composer. He sings predominantly in Hindi and Bengali but has also performed in various other Indian languages. He is the recipient of a National Award and a record six Filmfare Awards. He is also known as "King of playback singing". 
+                    </p>
+                    <div id="button-container">
+                        <button id="play-button">Play All</button>
+                        <button id="follow-button">Follow</button>
+                    </div>
+                    <p>225 Tracks | 117 Albums</p>
+                </div>
+            </div>
+            <div id="artist-playlist">
+                <div class="playlist">
+                    <div class="cover">
+                        <img src="./images/qu2.jpg"  class="cover-image">
+                    </div>
+                    <div class="name">
+                        <span style="font-weight: bold;">Mirage</span>
+                        <span>Else</span>
+                    </div>
+                    <div class="hearts">
+                        <i class="fa fa-heart"></i> &nbsp; &nbsp; &nbsp;
+                        <i class="fas fa-plus"></i>
+                    </div>
+                </div>
+
+                <div class="playlist">
+                    <div class="cover">
+                        <img src="./images/qu3.png"  class="cover-image">
+                    </div>
+                    <div class="name">
+                        <span style="font-weight: bold;">New Skin</span>
+                        <span>Flume</span>
+                    </div>
+                    <div class="hearts">
+                        <i class="fa fa-heart"></i> &nbsp; &nbsp; &nbsp;
+                        <i class="fas fa-plus"></i>
+                    </div>
+                </div>
+
+                <div class="playlist">
+                    <div class="cover">
+                        <img src="./images/qu5.jpg"  class="cover-image">
+                    </div>
+                    <div class="name">
+                        <span style="font-weight: bold;">Kabira</span>
+                        <span>Arijit Singh</span>
+                    </div>
+                    <div class="hearts">
+                        <i class="fa fa-heart"></i> &nbsp; &nbsp; &nbsp;
+                        <i class="fas fa-plus"></i>
+                    </div>
+                </div>
+
+                <div class="playlist">
+                    <div class="cover">
+                        <img src="./images/qu1.jpg"  class="cover-image">
+                    </div>
+                    <div class="name">
+                        <span style="font-weight: bold;">Worry About Us</span>
+                        <span>Rosie Lowe</span>
+                    </div>
+                    <div class="hearts">
+                        <i class="fa fa-heart"></i> &nbsp; &nbsp; &nbsp;
+                        <i class="fas fa-plus"></i>
+                    </div>
+                </div>
+
+                <div class="playlist">
+                    <div class="cover">
+                        <img src="./images/qu6.jpg"  class="cover-image">
+                    </div>
+                    <div class="name">
+                        <span style="font-weight: bold;">Bang Bang</span>
+                        <span>Benny Dayal</span>
+                    </div>
+                    <div class="hearts">
+                        <i class="fa fa-heart"></i> &nbsp; &nbsp; &nbsp;
+                        <i class="fas fa-plus"></i>
+                    </div>
+                </div>
+
+                <div class="playlist">
+                    <div class="cover">
+                        <img src="./images/qu1.jpg"  class="cover-image">
+                    </div>
+                    <div class="name">
+                        <span style="font-weight: bold;">Script</span>
+                        <span>Rosie Lowe</span>
+                    </div>
+                    <div class="hearts">
+                        <i class="fa fa-heart"></i> &nbsp; &nbsp; &nbsp;
+                        <i class="fas fa-plus"></i>
+                    </div>
+                </div>
+
+                <div class="playlist">
+                    <div class="cover">
+                        <img src="./images/qu4.png"  class="cover-image">
+                    </div>
+                    <div class="name">
+                        <span style="font-weight: bold;">Closer</span>
+                        <span>Chainsmoker</span>
+                    </div>
+                    <div class="hearts">
+                        <i class="fa fa-heart"></i> &nbsp; &nbsp; &nbsp;
+                        <i class="fas fa-plus"></i>
+                    </div>
+                </div>
+
+                <div class="playlist">
+                    <div class="cover">
+                        <img src="./images/qu7.jpeg"  class="cover-image">
+                    </div>
+                    <div class="name">
+                        <span style="font-weight: bold;">Phir Kabhi</span>
+                        <span>Atif Aslam</span>
+                    </div>
+                    <div class="hearts">
+                        <i class="fa fa-heart"></i> &nbsp; &nbsp; &nbsp;
+                        <i class="fas fa-plus"></i>
+                    </div>
+                </div>
+
+                <div class="playlist">
+                    <div class="cover">
+                        <img src="./images/qu8.jpeg"  class="cover-image">
+                    </div>
+                    <div class="name">
+                        <span style="font-weight: bold;">Bekhayali</span>
+                        <span>Arijit Singh</span>
+                    </div>
+                    <div class="hearts">
+                        <i class="fa fa-heart"></i> &nbsp; &nbsp; &nbsp;
+                        <i class="fas fa-plus"></i>
+                    </div>
+                </div>
+
+                <div class="playlist">
+                    <div class="cover">
+                        <img src="./images/qu8.jpeg"  class="cover-image">
+                    </div>
+                    <div class="name">
+                        <span style="font-weight: bold;">Kaise Hua</span>
+                        <span>Arijit Singh</span>
+                    </div>
+                    <div class="hearts">
+                        <i class="fa fa-heart"></i> &nbsp; &nbsp; &nbsp;
+                        <i class="fas fa-plus"></i>
+                    </div>
+                </div>
+
+                 <div class="playlist">
+                    <div class="cover">
+                        <img src="./images/qu9.jpg"  class="cover-image">
+                    </div>
+                    <div class="name">
+                        <span style="font-weight: bold;">Barish</span>
+                        <span>Arijit Singh</span>
+                    </div>
+                    <div class="hearts">
+                        <i class="fa fa-heart"></i> &nbsp; &nbsp; &nbsp;
+                        <i class="fas fa-plus"></i>
+                    </div>
+                </div>
+
+                <div class="playlist">
+                    <div class="cover">
+                        <img src="./images/qu10.jpg"  class="cover-image">
+                    </div>
+                    <div class="name">
+                        <span style="font-weight: bold;">Sher Aya</span>
+                        <span>Siddhant Chaturvedi</span>
+                    </div>
+                    <div class="hearts">
+                        <i class="fa fa-heart"></i> &nbsp; &nbsp; &nbsp;
+                        <i class="fas fa-plus"></i>
+                    </div>
+                </div>
+
+                <div class="playlist">
+                    <div class="cover">
+                        <img src="./images/qu10.jpg"  class="cover-image">
+                    </div>
+                    <div class="name">
+                        <span style="font-weight: bold;">Apna Time Ayega</span>
+                        <span>Naved Saikh</span>
+                    </div>
+                    <div class="hearts">
+                        <i class="fa fa-heart"></i> &nbsp; &nbsp; &nbsp;
+                        <i class="fas fa-plus"></i>
+                    </div>
+                </div>
+
+                <div class="playlist">
+                    <div class="cover">
+                        <img src="./images/qu1.jpg"  class="cover-image">
+                    </div>
+                    <div class="name">
+                        <span style="font-weight: bold;">Worry About Us</span>
+                        <span>Rosie Lowe</span>
+                    </div>
+                    <div class="hearts">
+                        <i class="fa fa-heart"></i> &nbsp; &nbsp; &nbsp;
+                        <i class="fas fa-plus"></i>
+                    </div>
+                </div>
+
+                <div class="playlist">
+                    <div class="cover">
+                        <img src="./images/qu15.jpg"  class="cover-image">
+                    </div>
+                    <div class="name">
+                        <span style="font-weight: bold;">Aal Is Well</span>
+                        <span>Sonu Nigam</span>
+                    </div>
+                    <div class="hearts">
+                        <i class="fa fa-heart"></i> &nbsp; &nbsp; &nbsp;
+                        <i class="fas fa-plus"></i>
+                    </div>
+                </div>
+
+                <div class="playlist">
+                    <div class="cover">
+                        <img src="./images/qu14.jpg"  class="cover-image">
+                    </div>
+                    <div class="name">
+                        <span style="font-weight: bold;">440 Volt</span>
+                        <span>Mika Singh</span>
+                    </div>
+                    <div class="hearts">
+                        <i class="fa fa-heart"></i> &nbsp; &nbsp; &nbsp;
+                        <i class="fas fa-plus"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- aside section -->
+        <div class="item three">
+            <!-- similar artists -->
+            <div class="aside-two">
+                <div class="heading">
+                    <div class="main-head">Similar Artists</div>
+                    <div class="drop-menu">
+                        <button class="dropbutton">
+                            <span>View All</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="queue-content">
+                    <ol type="1" class="queue sa-queue">
+
+                        <li>
+                            <div class="playlist">
+                                <div class="cover second">
+                                    <img src="./images/qu2.jpg" class="cover-image">
+                                </div>
+                                <div class="name n-second">
+                                    <span style="font-weight: bold;">Mirage</span>
+                                    <span>Else</span>
+                                </div>
+                                <div class="side-pane">
+                                    <div class="dropdown-menu">
+                                        <button class="dropbutton">
+                                            <span><i class="fas fa-ellipsis-h"></i></span>
+                                            <div class="menu font-size">
+                                                <ul type="none">
+                                                    <li><i class="fas fa-play"></i> Play Now</li>
+                                                    <hr>
+                                                    <li><i class="fas fa-plus"></i> Add To Queue</li>
+                                                    <hr>
+                                                    <li><i class="fas fa-bookmark"></i> Add To Favourites</li>
+                                                    <hr>
+                                                    <li><i class="fas fa-info-circle"></i> Get Info</li>
+                                                </ul>
+                                            </div>
+                                            <div style="color: #fff;">4.44</div>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="playlist">
+                                <div class="cover second">
+                                    <img src="./images/qu3.png" class="cover-image">
+                                </div>
+                                <div class="name n-second">
+                                    <span style="font-weight: bold;">New Skin</span>
+                                    <span>Flume</span>
+                                </div>
+                                <div class="side-pane">
+                                    <div class="dropdown-menu">
+                                        <button class="dropbutton">
+                                            <span><i class="fas fa-ellipsis-h"></i></span>
+                                            <div class="menu font-size">
+                                                <ul type="none">
+                                                    <li><i class="fas fa-play"></i> Play Now</li>
+                                                    <hr>
+                                                    <li><i class="fas fa-plus"></i> Add To Queue</li>
+                                                    <hr>
+                                                    <li><i class="fas fa-bookmark"></i> Add To Favourites</li>
+                                                    <hr>
+                                                    <li><i class="fas fa-info-circle"></i> Get Info</li>
+                                                </ul>
+                                            </div>
+                                            <div style="color: #fff;">4.44</div>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="playlist">
+                                <div class="cover second">
+                                    <img src="./images/qu5.jpg" class="cover-image">
+                                </div>
+                                <div class="name n-second">
+                                    <span style="font-weight: bold;">Illahi</span>
+                                    <span>Darshan Raval</span>
+                                </div>
+                                <div class="side-pane">
+                                    <div class="dropdown-menu">
+                                        <button class="dropbutton">
+                                            <span><i class="fas fa-ellipsis-h"></i></span>
+                                            <div class="menu font-size">
+                                                <ul type="none">
+                                                    <li><i class="fas fa-play"></i> Play Now</li>
+                                                    <hr>
+                                                    <li><i class="fas fa-plus"></i> Add To Queue</li>
+                                                    <hr>
+                                                    <li><i class="fas fa-bookmark"></i> Add To Favourites</li>
+                                                    <hr>
+                                                    <li><i class="fas fa-info-circle"></i> Get Info</li>
+                                                </ul>
+                                            </div>
+                                            <div style="color: #fff;">4.44</div>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="playlist">
+                                <div class="cover second">
+                                    <img src="./images/qu1.jpg" class="cover-image">
+                                </div>
+                                <div class="name n-second">
+                                    <span style="font-weight: bold;">Worry About Us</span>
+                                    <span>Rosie Lowe</span>
+                                </div>
+                                <div class="side-pane">
+                                    <div class="dropdown-menu">
+                                        <button class="dropbutton">
+                                            <span><i class="fas fa-ellipsis-h"></i></span>
+                                            <div class="menu font-size">
+                                                <ul type="none">
+                                                    <li><i class="fas fa-play"></i> Play Now</li>
+                                                    <hr>
+                                                    <li><i class="fas fa-plus"></i> Add To Queue</li>
+                                                    <hr>
+                                                    <li><i class="fas fa-bookmark"></i> Add To Favourites</li>
+                                                    <hr>
+                                                    <li><i class="fas fa-info-circle"></i> Get Info</li>
+                                                </ul>
+                                            </div>
+                                            <div style="color: #fff;">4.44</div>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="playlist">
+                                <div class="cover second">
+                                    <img src="./images/qu6.jpg" class="cover-image">
+                                </div>
+                                <div class="name n-second">
+                                    <span style="font-weight: bold;">Bang Bang</span>
+                                    <span>Benny Dayal</span>
+                                </div>
+                                <div class="side-pane">
+                                    <div class="dropdown-menu">
+                                        <button class="dropbutton">
+                                            <span><i class="fas fa-ellipsis-h"></i></span>
+                                            <div class="menu font-size">
+                                                <ul type="none">
+                                                    <li><i class="fas fa-play"></i> Play Now</li>
+                                                    <hr>
+                                                    <li><i class="fas fa-plus"></i> Add To Queue</li>
+                                                    <hr>
+                                                    <li><i class="fas fa-bookmark"></i> Add To Favourites</li>
+                                                    <hr>
+                                                    <li><i class="fas fa-info-circle"></i> Get Info</li>
+                                                </ul>
+                                            </div>
+                                            <div style="color: #fff;">4.44</div>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="playlist">
+                                <div class="cover second">
+                                    <img src="./images/qu8.jpeg" class="cover-image">
+                                </div>
+                                <div class="name n-second">
+                                    <span style="font-weight: bold;">Bekhayali</span>
+                                    <span>Arijit Singh</span>
+                                </div>
+                                <div class="side-pane">
+                                    <div class="dropdown-menu">
+                                        <button class="dropbutton">
+                                            <span><i class="fas fa-ellipsis-h"></i></span>
+                                            <div class="menu font-size">
+                                                <ul type="none">
+                                                    <li><i class="fas fa-play"></i> Play Now</li>
+                                                    <hr>
+                                                    <li><i class="fas fa-plus"></i> Add To Queue</li>
+                                                    <hr>
+                                                    <li><i class="fas fa-bookmark"></i> Add To Favourites</li>
+                                                    <hr>
+                                                    <li><i class="fas fa-info-circle"></i> Get Info</li>
+                                                </ul>
+                                            </div>
+                                            <div style="color: #fff;">4.44</div>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="playlist">
+                                <div class="cover second">
+                                    <img src="./images/qu8.jpeg" class="cover-image">
+                                </div>
+                                <div class="name n-second">
+                                    <span style="font-weight: bold;">Kaise Hua</span>
+                                    <span>Arijit Singh</span>
+                                </div>
+                                <div class="side-pane">
+                                    <div class="dropdown-menu">
+                                        <button class="dropbutton">
+                                            <span><i class="fas fa-ellipsis-h"></i></span>
+                                            <div class="menu font-size">
+                                                <ul type="none">
+                                                    <li><i class="fas fa-play"></i> Play Now</li>
+                                                    <hr>
+                                                    <li><i class="fas fa-plus"></i> Add To Queue</li>
+                                                    <hr>
+                                                    <li><i class="fas fa-bookmark"></i> Add To Favourites</li>
+                                                    <hr>
+                                                    <li><i class="fas fa-info-circle"></i> Get Info</li>
+                                                </ul>
+                                            </div>
+                                            <div style="color: #fff;">4.44</div>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="playlist">
+                                <div class="cover second">
+                                    <img src="./images/qu9.jpg" class="cover-image">
+                                </div>
+                                <div class="name n-second">
+                                    <span style="font-weight: bold;">Barish</span>
+                                    <span>Arijit Singh</span>
+                                </div>
+                                <div class="side-pane">
+                                    <div class="dropdown-menu">
+                                        <button class="dropbutton">
+                                            <span><i class="fas fa-ellipsis-h"></i></span>
+                                            <div class="menu font-size">
+                                                <ul type="none">
+                                                    <li><i class="fas fa-play"></i> Play Now</li>
+                                                    <hr>
+                                                    <li><i class="fas fa-plus"></i> Add To Queue</li>
+                                                    <hr>
+                                                    <li><i class="fas fa-bookmark"></i> Add To Favourites</li>
+                                                    <hr>
+                                                    <li><i class="fas fa-info-circle"></i> Get Info</li>
+                                                </ul>
+                                            </div>
+                                            <div style="color: #fff;">4.44</div>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="playlist">
+                                <div class="cover second">
+                                    <img src="./images/qu10.jpg" class="cover-image">
+                                </div>
+                                <div class="name n-second">
+                                    <span style="font-weight: bold;">Sher Aya</span>
+                                    <span>Siddhant Chaturvedi</span>
+                                </div>
+                                <div class="side-pane">
+                                    <div class="dropdown-menu">
+                                        <button class="dropbutton">
+                                            <span><i class="fas fa-ellipsis-h"></i></span>
+                                            <div class="menu font-size">
+                                                <ul type="none">
+                                                    <li><i class="fas fa-play"></i> Play Now</li>
+                                                    <hr>
+                                                    <li><i class="fas fa-plus"></i> Add To Queue</li>
+                                                    <hr>
+                                                    <li><i class="fas fa-bookmark"></i> Add To Favourites</li>
+                                                    <hr>
+                                                    <li><i class="fas fa-info-circle"></i> Get Info</li>
+                                                </ul>
+                                            </div>
+                                            <div style="color: #fff;">4.44</div>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="playlist">
+                                <div class="cover second">
+                                    <img src="./images/qu10.jpg" class="cover-image">
+                                </div>
+                                <div class="name n-second">
+                                    <span style="font-weight: bold;">Apna Time Ayega</span>
+                                    <span>Navid Saikh</span>
+                                </div>
+                                <div class="side-pane">
+                                    <div class="dropdown-menu">
+                                        <button class="dropbutton">
+                                            <span><i class="fas fa-ellipsis-h"></i></span>
+                                            <div class="menu font-size">
+                                                <ul type="none">
+                                                    <li><i class="fas fa-play"></i> Play Now</li>
+                                                    <hr>
+                                                    <li><i class="fas fa-plus"></i> Add To Queue</li>
+                                                    <hr>
+                                                    <li><i class="fas fa-bookmark"></i> Add To Favourites</li>
+                                                    <hr>
+                                                    <li><i class="fas fa-info-circle"></i> Get Info</li>
+                                                </ul>
+                                            </div>
+                                            <div style="color: #fff;">4.44</div>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="playlist">
+                                <div class="cover second">
+                                    <img src="./images/qu14.jpg" class="cover-image">
+                                </div>
+                                <div class="name n-second">
+                                    <span style="font-weight: bold;">440 Volt</span>
+                                    <span>Mika Singh</span>
+                                </div>
+                                <div class="side-pane">
+                                    <div class="dropdown-menu">
+                                        <button class="dropbutton">
+                                            <span><i class="fas fa-ellipsis-h"></i></span>
+                                            <div class="menu font-size">
+                                                <ul type="none">
+                                                    <li><i class="fas fa-play"></i> Play Now</li>
+                                                    <hr>
+                                                    <li><i class="fas fa-plus"></i> Add To Queue</li>
+                                                    <hr>
+                                                    <li><i class="fas fa-bookmark"></i> Add To Favourites</li>
+                                                    <hr>
+                                                    <li><i class="fas fa-info-circle"></i> Get Info</li>
+                                                </ul>
+                                            </div>
+                                            <div style="color: #fff;">4.44</div>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                    </ol>
+                </div>
+            </div>
+            <!-- Recently Played -->
+            <div class="aside">
+                <div class="heading">
+                    <div class="main-head">Recently Played</div>
+                    <div class="drop-menu">
+                        <button class="dropbutton">
+                            <span>View All</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="queue-content">
+                    <ol class="queue" type="1">
+
+                        <li>
+                            <div class="playlist">
+                                <div class="cover">
+                                    <img src="./images/qu2.jpg" class="cover-image">
+                                </div>
+                                <div class="name">
+                                    <span style="font-family: sans-serif; font-weight: bold;">Mirage</span>
+                                    <span style="font-family: sans-serif;">Else</span>
+                                </div>
+                                <div class="heart">
+                                    <i class="far fa-heart"></i>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="playlist">
+                                <div class="cover">
+                                    <img src="./images/qu3.png" class="cover-image">
+                                </div>
+                                <div class="name">
+                                    <span style="font-family: sans-serif; font-weight: bold;">New Skin</span>
+                                    <span style="font-family: sans-serif;">Flume</span>
+                                </div>
+                                <div class="heart">
+                                    <i class="far fa-heart"></i>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="playlist">
+                                <div class="cover">
+                                    <img src="./images/qu5.jpg" class="cover-image">
+                                </div>
+                                <div class="name">
+                                    <span style="font-family: sans-serif; font-weight: bold;">Kabira</span>
+                                    <span style="font-family: sans-serif;">Arijit Singh</span>
+                                </div>
+                                <div class="heart">
+                                    <i class="far fa-heart"></i>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="playlist">
+                                <div class="cover">
+                                    <img src="./images/qu1.jpg" class="cover-image">
+                                </div>
+                                <div class="name">
+                                    <span style="font-family: sans-serif; font-weight: bold;">Worry About Us</span>
+                                    <span style="font-family: sans-serif;">Rosie Lowe</span>
+                                </div>
+                                <div class="heart">
+                                    <i class="far fa-heart"></i>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="playlist">
+                                <div class="cover">
+                                    <img src="./images/qu6.jpg" class="cover-image">
+                                </div>
+                                <div class="name">
+                                    <span style="font-family: sans-serif; font-weight: bold;">Bang Bang</span>
+                                    <span style="font-family: sans-serif;">Benny Dayal</span>
+                                </div>
+                                <div class="heart">
+                                    <i class="far fa-heart"></i>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="playlist">
+                                <div class="cover">
+                                    <img src="./images/qu1.jpg" class="cover-image">
+                                </div>
+                                <div class="name">
+                                    <span style="font-family: sans-serif; font-weight: bold;">Script</span>
+                                    <span style="font-family: sans-serif;">Rosie Lowe</span>
+                                </div>
+                                <div class="heart">
+                                    <i class="far fa-heart"></i>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="playlist">
+                                <div class="cover">
+                                    <img src="./images/qu4.png" class="cover-image">
+                                </div>
+                                <div class="name">
+                                    <span style="font-family: sans-serif; font-weight: bold;">Closer</span>
+                                    <span style="font-family: sans-serif;">Chainsmoker</span>
+                                </div>
+                                <div class="heart">
+                                    <i class="far fa-heart"></i>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="playlist">
+                                <div class="cover">
+                                    <img src="./images/qu7.jpeg" class="cover-image">
+                                </div>
+                                <div class="name">
+                                    <span style="font-family: sans-serif; font-weight: bold;">Phir Kabhi</span>
+                                    <span style="font-family: sans-serif;">Atif Aslam</span>
+                                </div>
+                                <div class="heart">
+                                    <i class="far fa-heart"></i>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="playlist">
+                                <div class="cover">
+                                    <img src="./images/qu8.jpeg" class="cover-image">
+                                </div>
+                                <div class="name">
+                                    <span style="font-family: sans-serif; font-weight: bold;">Bekhayali</span>
+                                    <span style="font-family: sans-serif;">Arijit Singh</span>
+                                </div>
+                                <div class="heart">
+                                    <i class="far fa-heart"></i>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="playlist">
+                                <div class="cover">
+                                    <img src="./images/qu8.jpeg" class="cover-image">
+                                </div>
+                                <div class="name">
+                                    <span style="font-family: sans-serif; font-weight: bold;">Kaise Hua</span>
+                                    <span style="font-family: sans-serif;">Arijit Singh</span>
+                                </div>
+                                <div class="heart">
+                                    <i class="far fa-heart"></i>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="playlist">
+                                <div class="cover">
+                                    <img src="./images/qu9.jpg" class="cover-image">
+                                </div>
+                                <div class="name">
+                                    <span style="font-family: sans-serif; font-weight: bold;">Barish</span>
+                                    <span style="font-family: sans-serif;">Arijit Singh</span>
+                                </div>
+                                <div class="heart">
+                                    <i class="far fa-heart"></i>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="playlist">
+                                <div class="cover">
+                                    <img src="./images/qu10.jpg" class="cover-image">
+                                </div>
+                                <div class="name">
+                                    <span style="font-family: sans-serif; font-weight: bold;">Sher Aya</span>
+                                    <span style="font-family: sans-serif;">Siddhant Chaturvedi</span>
+                                </div>
+                                <div class="heart">
+                                    <i class="far fa-heart"></i>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="playlist">
+                                <div class="cover">
+                                    <img src="./images/qu10.jpg" class="cover-image">
+                                </div>
+                                <div class="name">
+                                    <span style="font-family: sans-serif; font-weight: bold;">Apna Time Ayega</span>
+                                    <span style="font-family: sans-serif;">Naved Saikh</span>
+                                </div>
+                                <div class="heart">
+                                    <i class="far fa-heart"></i>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="playlist">
+                                <div class="cover">
+                                    <img src="./images/qu7.jpeg" class="cover-image">
+                                </div>
+                                <div class="name">
+                                    <span style="font-family: sans-serif; font-weight: bold;">Phir Kabhi</span>
+                                    <span style="font-family: sans-serif;">Atif Aslam</span>
+                                </div>
+                                <div class="heart">
+                                    <i class="far fa-heart"></i>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="playlist">
+                                <div class="cover">
+                                    <img src="./images/qu15.jpg" class="cover-image">
+                                </div>
+                                <div class="name">
+                                    <span style="font-family: sans-serif; font-weight: bold;">Aal Is Well</span>
+                                    <span style="font-family: sans-serif;">Sonu Nigam</span>
+                                </div>
+                                <div class="heart">
+                                    <i class="far fa-heart"></i>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="playlist">
+                                <div class="cover">
+                                    <img src="./images/qu14.jpg" class="cover-image">
+                                </div>
+                                <div class="name">
+                                    <span style="font-family: sans-serif; font-weight: bold;">440 Volt</span>
+                                    <span style="font-family: sans-serif;">Mika Singh</span>
+                                </div>
+                                <div class="heart">
+                                    <i class="far fa-heart"></i>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="playlist">
+                                <div class="cover">
+                                    <img src="./images/qu5.jpg" class="cover-image">
+                                </div>
+                                <div class="name">
+                                    <span style="font-family: sans-serif; font-weight: bold;">Kabira</span>
+                                    <span style="font-family: sans-serif;">Arijit Singh</span>
+                                </div>
+                                <div class="heart">
+                                    <i class="far fa-heart"></i>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="playlist">
+                                <div class="cover">
+                                    <img src="./images/qu8.jpeg" class="cover-image">
+                                </div>
+                                <div class="name">
+                                    <span style="font-family: sans-serif; font-weight: bold;">Bekhaiyali</span>
+                                    <span style="font-family: sans-serif;">Arijit Singh</span>
+                                </div>
+                                <div class="heart">
+                                    <i class="far fa-heart"></i>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="playlist">
+                                <div class="cover">
+                                    <img src="./images/qu14.jpg" class="cover-image">
+                                </div>
+                                <div class="name">
+                                    <span style="font-family: sans-serif; font-weight: bold;">Jag Goomeya</span>
+                                    <span style="font-family: sans-serif;">Rahat Fateh Ali</span>
+                                </div>
+                                <div class="heart">
+                                    <i class="far fa-heart"></i>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="playlist">
+                                <div class="cover">
+                                    <img src="./images/qu13.jpg" class="cover-image">
+                                </div>
+                                <div class="name">
+                                    <span style="font-family: sans-serif; font-weight: bold;">Slow Motion</span>
+                                    <span style="font-family: sans-serif;">Nakash Aziz</span>
+                                </div>
+                                <div class="heart">
+                                    <i class="far fa-heart"></i>
+                                </div>
+                            </div>
+                        </li>
+
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Play Bar -->
+    <div id="play-bar">
+        <div class="bar-image"></div>
+        <div class="bar-name">
+            <p>Tum Hi Ho &nbsp; <i class="far fa-heart"></i> &nbsp; <i class="fas fa-ban"></i> </p>
+            <span>Arijit Singh</span>
+        </div>
+        <div class="bar-slider">
+            <p><i class="fas fa-random"></i> <i class="fas fa-step-backward"></i> <i class="far fa-pause-circle"></i> <i class="fas fa-step-forward"></i> <i class="fas fa-redo"></i></p>
+            1:40 <input type="range" id="slider"> 4:57
+        </div>
+        <div class="bar-right">
+            <i class="fas fa-list"></i> <i class="fas fa-desktop"></i> <i class="fas fa-volume-up"></i>
+            <input type="range" id="slider-2">
+        </div>
+    </div>
+</body>
+</html>

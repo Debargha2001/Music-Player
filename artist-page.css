@@ -1,0 +1,708 @@
+body {
+    background-color: #090921;
+    padding: 30px;
+    color: white;
+    font-family: sans-serif;
+}
+
+button:focus {
+    outline: none;
+}
+
+.item {
+    box-sizing: border-box;
+    display: inline-block;
+    background-color: transparent;
+}
+
+/*navigation bar*/
+.one {
+    width: 100%;
+    height: 100px;
+    background-color: transparent;
+    display: flex;
+    position: relative;
+}
+
+.div-set {
+    margin: 0px 3px;
+}
+
+.left-side {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    width: 25%;
+    display: flex;
+    height: 100%;
+    padding: 0.5%;
+    box-sizing: border-box;
+}
+
+
+.logo {
+    height: 80px;
+    width: 70px;
+    font-size: 4.5rem;
+    margin-left: 2%;
+}
+
+.logo i {
+    color: #ccccff;
+}
+#title {
+    padding-top: 15px;
+    margin-left: 2%;
+}
+
+#title span {
+    display: block;
+    font-size: 1.2rem;
+}
+
+#favourites-tab {
+    margin-left: 25%;
+    padding-top: 15px;
+    height: 61px;
+    width: 76px;
+    cursor: pointer;
+}
+
+#home-tab {
+    padding-top: 16px;
+    margin-left: 4%;
+}
+
+
+#home-tab button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+.right-side {
+    position: absolute;
+    left: 55%;
+    top: 0%;
+    width: 40%;
+    display: flex;
+    height: 96px;
+    box-sizing: border-box;
+}
+
+#search-bar {
+    height: 32px;
+    width: 52%;
+    margin-top: 27px;
+    margin-left: 2%;
+    position: relative;
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: #081352;
+
+}
+
+
+#search-bar input {
+    height: 26px;
+    margin-left: -4px;
+    border: none;
+    width: 100%;
+    font-size: 1.2rem;
+    background-color: transparent;
+    color: white;
+
+}
+
+#search-bar input:focus {
+    outline: none;
+
+}
+
+#search-bar button {
+    font-size: 1.2rem;
+    height: 32px;
+    border: none;
+    background-color: transparent;
+    margin-top: 0px;
+    border-radius: 50%;
+    color: white;
+
+}
+
+#search-bar form {
+    display: inline-block;
+    width: 72%;
+}
+
+.mic {
+    position: absolute;
+    left: 87%;
+
+}
+
+
+#bell-icon {
+    margin-left: 7%;
+    height: 43px;
+    margin-top: 25px;
+    position: relative;
+    cursor: pointer;
+
+}
+
+#bell-icon i {
+    font-size: 2.2rem;
+}
+
+#dot {
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    left: 65%;
+    top: 12%;
+}
+
+.profile {
+    border-radius: 50%;
+    height: 77px;
+    width: 85px;
+    margin-left: 9%;
+    margin-top: 5px;
+    background-image: url(images/profile.jpg);
+    background-size: cover;
+}
+
+
+/*********************main-content*******************************/
+
+
+.two {
+    width: 62.5%;
+    margin-left: 1%;
+    height: 1800px;
+    margin-top: 2%;
+}
+
+#singer {
+    width: 100%;
+    height: 320px;
+    display: flex;
+    background-color: #081352;
+    line-height: 1rem;
+    overflow-y: scroll;
+}
+
+#singer p{
+    line-height: 1.2rem;
+    word-spacing: 0.1rem;
+}
+
+.image {
+    width: 280px;
+    height: 100%;
+    background-image: url(./images/arijit.jpg);
+    background-size: cover;
+}
+
+.two p {
+    font-size: 14px;
+    text-align: justify;
+}
+
+
+.info {
+    box-sizing: border-box;
+    width: 65%;
+    height: 100%;
+    padding: 20px;
+    position: relative;
+
+}
+
+#followers {
+    position: absolute;
+    left: 75%;
+    top: 18%;
+}
+
+#button-container{
+    display: flex;
+}
+
+#play-button {
+    background-image: linear-gradient(90deg, blue, #e218e2);
+    border: none;
+    text-align: center;
+    margin-top: 6px;
+    margin-left: 1px;
+    font-size: 1rem;
+    width: 150px;
+    height: 33px;
+    color: white;
+    cursor: pointer;
+}
+
+#follow-button {
+    background-image: linear-gradient(90deg, blue, #e218e2);
+    border: none;
+    text-align: center;
+    margin-top: 6px;
+    margin-left: 20%;
+    font-size: 1.2rem;
+    width: 114px;
+    height: 33px;
+    color: white;
+    cursor: pointer;
+}
+
+#artist-playlist {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.hearts {
+    font-size: 1.8rem;
+    position: absolute;
+    left: 75%;
+    top: 19%;
+    font-weight: 100;
+
+}
+
+#artist-playlist>div {
+    background-color: #1e2658;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    height: 75px;
+}
+
+#artist-playlist>div:hover {
+    background-color: black;
+}
+
+/*********************queue-section*******************************/
+
+.three {
+    width: 35%;
+    height: 1120px;
+    margin-top: 2%;
+    vertical-align: top;
+    display: inline-block;
+    margin-left: 1%;
+    position: relative;
+
+}
+
+
+.aside {
+    width: 100%;
+    height: 48%;
+    position: relative;
+}
+
+.aside-two {
+    width: 100%;
+    height: 50%;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+
+.queue-content {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 93.5%;
+}
+
+
+.aside>div {
+    display: block;
+    width: 99%;
+
+}
+
+.heading {
+    height: 60px;
+    position: relative;
+    top: 0;
+}
+
+
+.side-pane {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 80%;
+    top: 8%;
+
+}
+
+.side-pane span {
+    display: block;
+    font-size: 1.5rem;
+    color: white !important;
+}
+
+
+.drop-menu {
+    position: absolute;
+    left: 74%;
+    top: 18%;
+    margin-top: 0px;
+    font-size: 1.2rem;
+    display: inline-block;
+
+}
+
+.dropbutton {
+    cursor: pointer;
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+}
+
+.dropbutton span {
+    color: #58b6e0;
+}
+
+.main-head {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 3px;
+    font-family: sans-serif;
+    display: inline-block;
+}
+
+.dropbutton:focus {
+    outline: none;
+}
+
+.font-size {
+    font-size: 1rem;
+    text-align: left;
+
+}
+
+.dropbutton:focus .menu {
+    opacity: 1;
+
+}
+
+.menu {
+    position: absolute;
+    left: -120px;
+    top: 24px;
+    border: 1px solid black;
+    background-color: whitesmoke;
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.1s ease-in-out;
+}
+
+.menu ul {
+    padding: 0px;
+    margin: 6px;
+    margin-right: 20px;
+}
+
+.menu ul li {
+    height: 20px;
+}
+
+
+.queue-content {
+    overflow-y: scroll;
+    height: 88.5%;
+}
+
+.queue li {
+    height: 70px;
+}
+
+.playlist {
+    width: 100%;
+    display: flex;
+    align-content: center;
+    box-sizing: border-box;
+    padding: 10px;
+    position: relative;
+}
+
+
+.queue {
+    padding-left: 25px;
+    margin: 0px 2px;
+}
+
+.cover {
+    width: 3rem;
+    height: 3rem;
+}
+
+.cover-image {
+    width: 100%;
+    height: 100%;
+
+}
+
+.name {
+    margin-left: 30px;
+}
+
+.name span {
+    display: block;
+    font-size: 1.2rem;
+}
+
+.heart {
+    font-size: 20px;
+    position: absolute;
+    left: 85%;
+}
+
+.sa-queue {
+    list-style: none;
+}
+
+.sa-queue li {
+    height: 120px;
+}
+
+.second {
+    width: 6rem;
+    height: 6rem;
+}
+
+.n-second {
+    line-height: 29px;
+    margin-top: 16px;
+}
+
+/*scroll bar*/
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/*track*/
+
+::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #1f2961;
+    border-radius: 10px;
+}
+
+/*********************play-bar*******************************/
+
+#play-bar {
+    height: 106px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: #2d2929;
+
+}
+
+.bar-image {
+    height: 90px;
+    width: 90px;
+    position: absolute;
+    left: 2%;
+    top: 12%;
+    background-image: url(images/arijit.jpg);
+    background-size: cover;
+}
+
+.bar-name {
+    height: 67px;
+    width: 190px;
+    position: absolute;
+    left: 9%;
+    top: 19%;
+}
+
+.bar-slider {
+    height: 86px;
+    width: 31rem;
+    position: absolute;
+    left: 30%;
+    top: 13%;
+    font-size: 1.2rem;
+    text-align: center;
+    word-spacing: 2rem;
+}
+
+#slider {
+    width: 20.2rem;
+}
+
+.bar-right {
+    height: 86px;
+    box-sizing: border-box;
+    width: 21rem;
+    position: absolute;
+    left: 75%;
+    top: 13%;
+    font-size: 1.2rem;
+    text-align: center;
+    word-spacing: 1rem;
+    padding-top: 29px;
+
+}
+
+#slider-two {
+    width: 7rem;
+}
+
+@media screen and (max-width: 1200px) {
+    
+
+    .bar-image {
+        left: 1%;
+    }
+
+    .bar-name {
+        left: 9%;
+        top: 19%;
+    }
+
+    .bar-slider {
+        width: 25rem;
+        left: 32%;
+        top: 13%;
+    }
+
+    #slider {
+        width: 15rem;
+    }
+
+    .bar-right {
+        width: 10rem;
+        left: 80%;
+        top: 13%;
+    }
+
+    #slider-two {
+        width: 3rem;
+    }
+
+}
+
+
+@media screen and (max-width: 1050px) {
+    .three {
+        display: none;
+    }
+
+    .two {
+        width: 100%;
+    }
+
+    .left-side {
+        width: 71%;
+    }
+
+    #favourites-tab{
+        margin-top: 50px;
+    }
+
+    #home-tab{
+        margin-top: 50px;
+        margin-left: 2%;
+    }
+
+    .right-side{
+        left: 23rem;
+        width: 54%;
+    }
+
+    .profile{
+        margin-left: 5%;
+        width: 300px;
+    }
+
+    #search-bar {
+        width: 1000px;
+    }
+
+
+    #search-bar form {
+        width: 51px;
+    }
+
+    .bar-image {
+        left: 1%;
+    }
+
+    .bar-name {
+        left: 12%;
+        top: 19%;
+    }
+
+    .bar-slider {
+        width: 20rem;
+        left: 32%;
+        top: 13%;
+    }
+
+    #slider {
+        width: 10rem;
+    }
+
+    .bar-right {
+        width: 7rem;
+        left: 80%;
+        top: 13%;
+    }
+
+    #slider-two {
+        width: 3rem;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .bar-name {
+        left: 15%;
+        top: 19%;
+    }
+
+    .bar-slider {
+        left: 35%;
+    }
+
+    #slider {
+        width: 10rem;
+    }
+
+    .bar-right {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 60px) {
+
+
+    #main-content {
+        width: 550px;
+    }
+
+    .bar-image {
+        display: none;
+    }
+
+    .bar-name {
+        left: 2%;
+        top: 19%;
+    }
+}
